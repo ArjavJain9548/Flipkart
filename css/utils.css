@@ -1,0 +1,27 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: var(--main-bg-color);
+    color: white;
+    cursor: pointer;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.btn:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.my-2{
+    padding: 24px 0px;
+}
+
+.my-1{
+    margin: 5px;
+}

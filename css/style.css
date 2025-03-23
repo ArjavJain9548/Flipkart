@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,wght@1,500&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 125px;
+    padding: 0px 25px;
+}
+
+nav ul{
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+    font-size: 18px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+main{
+    background-color: antiquewhite;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 30px;
+    border-radius: 6px;
+    margin: 0 16px 0px 55px;
+    padding: 0px 12px;
+}
+
+.container{
+    min-height: calc(100vh - 9vh - 8vh);
+}
+
+.slider{
+    margin: auto;
+    width: 48vw;
+}
+
+.card h2{
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0px 25px;
+}
+
+.lines p{
+    color: blue;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 8vh;
+    font-family: 'Pathway Extreme', sans-serif;
+}
